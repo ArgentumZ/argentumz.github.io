@@ -33,7 +33,7 @@ ul.nav a { zoom: 1; }
       </div>
     </div>
    
-  <img src="image/Сайт кассы.jpg" alt="МПК &quot;Позитрон&quot;" name="Insert_logo" width="100%" height="100%" usemap="#Insert_logoMap" id="Insert_logo" style="background: #6F7D94; display:block; color: #000;" />
+  <img src="image/Сайт кассы.jpg" alt="ЦТО &quot;Позитрон&quot;" name="Insert_logo" width="100%" height="100%" usemap="#Insert_logoMap" id="Insert_logo" style="background: #6F7D94; display:block; color: #000;" />
       <map name="Insert_logoMap">
         <area shape="circle" coords="0,0,0" href="index.html">
     </map>
@@ -42,10 +42,8 @@ ul.nav a { zoom: 1; }
   <div class="sidebar1" id="sidebar1">
     <ul class="nav">
 
-      <div id="CollapsiblePanel1" class="CollapsiblePanel">
-        <div class="CollapsiblePanelTab" tabindex="0">Календарь</div>
-        <div class="CollapsiblePanelContent"> 
-           <style>
+<h1>Календарь</h1>
+	<style>
 #calendar3 {
   width: 100%;
   font: monospace;
@@ -143,59 +141,98 @@ document.querySelector('#calendar3').onchange = function Kalendar3() {
   Calendar3("calendar3",document.querySelector('#calendar3 input').value,parseFloat(document.querySelector('#calendar3 select').options[document.querySelector('#calendar3 select').selectedIndex].value));
 }
 </script>
-      </div>
-      </div>
-      <div id="CollapsiblePanel2" class="CollapsiblePanel">
-        <div class="CollapsiblePanelTab" tabindex="0">Слушать радио онлайн</div>
-		        <div class="TabbedPanelsContent"><div id="RO_Moskva" style="text-align:center;width:280px;background:#ccc;"><a href="http://fmradio-online.ru/" id="aRM">Слушать радио онлайн</a></div><script type="text/javascript" src="Scripts/rnsM.js" charset="UTF-8"></script></div>        
-	<div class="CollapsiblePanelContent">
-	
-      </div>
-      </div>
-      <div id="CollapsiblePanel3" class="CollapsiblePanel">
-        <div class="CollapsiblePanelTab" tabindex="0">Панель 3</div>
-        <div class="CollapsiblePanelContent">
-      		Содержимое панели 3 
-      </div>
-      </div>
-      <div id="CollapsiblePanel4" class="CollapsiblePanel">
-        <div class="CollapsiblePanelTab" tabindex="0">Панель 4</div>
-        <div class="CollapsiblePanelContent">
-      		  Содержимое панели 4
-      </div>
-      </div>
-      <div id="CollapsiblePanel5" class="CollapsiblePanel">
-        <div class="CollapsiblePanelTab" tabindex="0">Панель 5</div>
-        <div class="CollapsiblePanelContent">
-      		 Содержимое панели 5
-      </div>
-      </div>
-    </ul>
-  </div>
-  <div class="content" id="content1">
-    <div id="TabbedPanels1" class="TabbedPanels">
-      <ul class="TabbedPanelsTabGroup">
-        <li class="TabbedPanelsTab" tabindex="0">Кассы</li>
-        <li class="TabbedPanelsTab" tabindex="0">Штрихи</li>
-        <li class="TabbedPanelsTab" tabindex="0">Разное</li>
-</ul>
-      <div class="TabbedPanelsContentGroup">
-        <div class="TabbedPanelsContent">  
-	<table width=100%>
-	<tr><td width=50%>
-		<h1>Меркурий 115Ф</h1> 
-	<td width=50%>
-		<h1>Меркурий 185ф</table></h1>
-		 <img src="image/меркурий115ф.jpg" alt="Меркурий 115Ф" align="left" width="50%" height="50%" title="Меркурий 115Ф" style="background: #6F7D94; display:block; color: #000;"  />
-		 <img src="image/меркурий_185ф.jpg" alt="Меркурий 185Ф" align="right" width="50%" height="50%" title="Меркурий 185ф" style="background: #6F7D94; display:block; color: #000;" />
-		
 
+	<div id="CollapsiblePanel1" class="CollapsiblePanel">
+        <div class="CollapsiblePanelTab" tabindex="0">Слушать радио онлайн</div>
+		        <div class="TabbedPanelsContent"><div id="RO_Moskva" style="text-align:center;width:100%;background:#ccc;"><a href="http://fmradio-online.ru/" id="aRM">Слушать радио онлайн</a></div><script type="text/javascript" src="Scripts/rnsM.js" charset="UTF-8"></script></div>        
+	<div class="CollapsiblePanelContent"> </div>
+	</div>
+	
+</ul>
+	</div>
+	<div class="content" id="content1">
+	<div id="TabbedPanels1" class="TabbedPanels">
+		<ul class="TabbedPanelsTabGroup">
+			<li class="TabbedPanelsTab" tabindex="0">Меркурий</li>
+			<li class="TabbedPanelsTab" tabindex="0">Пионер</li>
+			<li class="TabbedPanelsTab" tabindex="0">ЭВОТОР</li>
+			<li class="TabbedPanelsTab" tabindex="0">Разное</li>
+			<li class="TabbedPanelsTab" tabindex="0">На карте</li>
+</ul>
+	<div class="TabbedPanelsContentGroup">
+	<div class="TabbedPanelsContent">  
+		<table width=100%>
+		<tr><td width=50%>
+			<h1>Меркурий 115Ф</h1> 
+		<td width=50%>
+			<h1>Меркурий 185ф</h1></table>
+			<img src="image/меркурий115ф.jpg" alt="Меркурий 115Ф" align="left" width="50%" height="50%" title="Меркурий 115Ф" style="background: #6F7D94; display:block; color: #000;"  />
+			<img src="image/меркурий_185ф.jpg" alt="Меркурий 185Ф" align="right" width="50%" height="50%" title="Меркурий 185ф" style="background: #6F7D94; display:block; color: #000;" />
+	
+<table width=100%>
+			<tr><td width=50%>
+<p><b>Наименование</b><br>
+Габариты  <br>
+Вес, кг (брутто\нетто)<br>
+Гарантия, месяцев <br>
+Средний срок службы (амортизации), лет<br>
+Встроенный аккумулятор<br>
+Количество программируемых товаров<br>
+Оформления возврата <br>
+Безналичный расчет<br>
+Считывание 1D линейных штрих кодов<br>
+Считывание 2D QR штрих кодов<br>
+Фискальный накопитель<br>
+Подключение к Интернет
+    </p>
+			<td width=25%>
+<p><b>Меркурий 115Ф</b><br>
+230x116x65<br>
+~1,2 / 1,0<br>
+18<br>
+10<br>
+есть<br>
+10000<br>
+есть<br>
+есть<br>
+есть<br>
+есть<br>
+есть<br>
+----</p>	
+				
+			<td width=25%>
+<p><b>Меркурий 185Ф</b><br>
+230x116x65<br>
+~1,2 / 1,0<br>
+18<br>
+10<br>
+есть<br>
+10000<br>
+есть<br>
+есть<br>
+есть<br>
+есть<br>
+есть<br>
+Wi-Fi\ GSM (SIM-карты) </p></table>	
+	</div>
+		
+	<div class="TabbedPanelsContent"> <h1>ККМ Пионер-114Ф</h1>
+			<img src="image/ККМ Пионер-114Ф.jpg" alt="ККМ Пионер-114Ф" align="left" width="50%" height="50%" title="ККМ Пионер-114Ф" style="background: #6F7D94; display:block; color: #000;"  />
 </div>
-        <div class="TabbedPanelsContent"> <h1>Штрих-мпей-ф</h1>
-		<img src="image/штрих-мпей-ф.jpg" alt="Штрих-мпей-ф" align="left" width="50%" height="50%" title="Штрих-мпей-ф" style="background: #6F7D94; display:block; color: #000;"  />
+	<div class="TabbedPanelsContent"> 
+			<table width=100%>
+		<tr><td width=50%>
+			<h1>Смарт-терминал<br> ЭВОТОР 5</h1> 
+		<td width=50%>
+			<h1>Смарт-терминал<br> ЭВОТОР 7.2</h1></table>
+			<img src="image/Смарт-терминал ЭВОТОР 5.png" alt="Смарт-терминал ЭВОТОР 5" align="left" width="50%" height="50%" title="Смарт-терминал ЭВОТОР 5" style="background: #6F7D94; display:block; color: #000;"  />
+			<img src="image/Смарт-терминал_ЭВОТОР_7.2.png" alt="Смарт-терминал ЭВОТОР 7.2" align="left" width="50%" height="50%" title="Смарт-терминал ЭВОТОР_7.2" style="background: #6F7D94; display:block; color: #000;"  />	
 </div>
-        <div class="TabbedPanelsContent"> <h1>Разное</h1>
-		<img src="image/Сканер_0.jpg" alt="Сканер" align="left" width="50%" height="50%" title="Сканер" style="background: #6F7D94; display:block; color: #000;"  />
+	<div class="TabbedPanelsContent"> <h1>Разное</h1>
+			<img src="image/Сканер_0.jpg" alt="Сканер" align="left" width="50%" height="50%" title="Сканер" style="background: #6F7D94; display:block; color: #000;"  />
+</div>
+	<div class="TabbedPanelsContent"> <h1>На карте</h1>
+			<a class="dg-widget-link" href="http://2gis.ru/tyumen/firm/1830115629690603/center/65.58747768402101,57.18826242510559/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Тюмени</a><div class="dg-widget-link"><a href="http://2gis.ru/tyumen/center/65.587965,57.187168/zoom/16/routeTab/rsType/bus/to/65.587965,57.187168╎Позитрон, ООО, торгово-сервисная компания?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Позитрон, ООО, торгово-сервисная компания</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":700,"height":450,"borderColor":"#a3a3a3","pos":{"lat":57.18826242510559,"lon":65.58747768402101,"zoom":16},"opt":{"city":"tyumen"},"org":[{"id":"1830115629690603"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
 </div>
               <!--[if !IE]>-->
             </object>
@@ -242,10 +279,8 @@ document.querySelector('#calendar3').onchange = function Kalendar3() {
 <!-- end .container --></div>
 <script type="text/javascript">
 var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel1", {contentIsOpen:false});
-var CollapsiblePanel2 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel2", {contentIsOpen:false});
-var CollapsiblePanel3 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel3", {contentIsOpen:false});
-var CollapsiblePanel4 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel4", {contentIsOpen:false});
-var CollapsiblePanel5 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel5", {contentIsOpen:false});
+
+
 var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
 swfobject.registerObject("FlashID");
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
