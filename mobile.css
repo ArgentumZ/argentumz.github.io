@@ -99,8 +99,8 @@ ul li:hover a {
 /* About Section */
 .text_column {
 	width: 29%;
-
-
+	text-align: justify;
+	font-weight: normal;
 	line-height: 25px;
 	float: left;
 	padding-left: 20px;
@@ -175,7 +175,7 @@ ul li:hover a {
 	padding-right: 0px;
 	width: 30%;
 	float: right;
-	font-weight: lighter;
+	font-weight: normal;
 	line-height: 23px;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -189,7 +189,7 @@ ul li:hover a {
 	padding-top: 20px;
 	width: 90%;
 	float: left;
-	font-weight: lighter;
+	font-weight: normal;
 	line-height: 34px;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -232,7 +232,7 @@ footer .footer_column p {
 	padding-right: 30px;
 	text-align: justify;
 	line-height: 25px;
-	font-weight: lighter;
+	font-weight: normal;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -268,7 +268,7 @@ footer .footer_column p {
 	background-color: #717070;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	font-weight: lighter;
+	font-weight: normal;
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
@@ -318,7 +318,7 @@ nav ul li {
 }
 .text_column {
 	width: 100%;
-
+	text-align: justify;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
