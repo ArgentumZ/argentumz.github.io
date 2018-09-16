@@ -146,10 +146,10 @@ ul li:hover a {
 	color: #1A1A1A;
 }
 .gallery .thumbnail p {
-	margin-top: 4px;
-	margin-right: 4px;
-	margin-bottom: 4px;
-	margin-left: 4px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 	color: #000;
 }
 /* Parallax Section */
@@ -486,7 +486,7 @@ nav ul li {
 	width: 100%;
 }
 .thumbnail {
-	width: 50%;
+	width: 100%;
 }
 .text_column {
 	width: 100%;
