@@ -146,10 +146,10 @@ ul li:hover a {
 	color: #1A1A1A;
 }
 .gallery .thumbnail p {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	margin-left: 4px;
 	color: #000;
 }
 /* Parallax Section */
@@ -288,11 +288,11 @@ footer {
 }
 
 /* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 600px) {
 .logo {
 	width: 100%;
 	text-align: center;
-	margin-top: 13px;
+	margin-top: 16px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -378,7 +378,7 @@ nav ul li {
 .logo {
 	width: 100%;
 	text-align: center;
-	margin-top: 13px;
+	margin-top: 16px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
