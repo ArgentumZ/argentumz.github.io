@@ -140,3 +140,41 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* изменяет цвет �
 	font-size: 1px;
 	line-height: 0px;
 }
+
+.hero-x {
+	background-color: #2D9AB7;
+	background-image: url(image/header.jpg);
+	height: 350px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax_x {
+	color: #FFFFFF;
+	text-align: left;
+	padding-right: 10px;
+	/*width: 40%;*/
+	padding-right: 30px;
+	float: right;
+	font-weight: normal;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.parallax_x1 {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 70px;
+	padding-top: 20px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_x2 {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 240px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
