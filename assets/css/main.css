@@ -3287,7 +3287,7 @@ input, select, textarea {
 	}
 .hero-x {
 		background-color: #2D81B7;
-		height: 140px;
+		height: 100px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		margin-top: 350px;
@@ -3302,7 +3302,7 @@ input, select, textarea {
 		}
 .hero-x2 {
 		background-color: #2D81B7;
-		height:250px;
+		height:220px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		margin-top: 0px;
