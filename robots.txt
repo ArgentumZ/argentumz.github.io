@@ -1,3 +1,3 @@
 User-agent: Yandex
-Sitemap: http: //xn--g1acpbacdlmf1b.xn--p1ai/Sitemap.xml
 Allow: /
+sitemap: http: //xn--g1acpbacdlmf1b.xn--p1ai/sitemap.xml
