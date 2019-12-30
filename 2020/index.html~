@@ -1,0 +1,673 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+<html>
+	<head>
+<meta charset="utf-8" />
+<link rel="icon" href="http://xn--g1acpbacdlmf1b.xn--p1ai/favicon.ico" type="image/png">
+<title>ЦТО "Позитрон" 一 Продажа и обслуживание торгового оборудования</title>
+<meta name="description" content="ЦТО 'Позитрон' кассовые аппараты он-лайн, чекопечатающие машинки, обслуживание, замена фискальных накопителей. Регистрация, перерегистрация в налоговой инспекции." />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />		
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<!-- <span class="image avatar"><img src="image/avatar.png" alt="" /></span> -->
+					<h1 id="logo"><a href="#one">ЦТО "Позитрон"</a></h1>
+
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">Главная</a></li>
+						<li><a href="#mercury">Меркурий</a></li>
+						<li><a href="#evotor">ЭВОТОР</a></li>
+						<li><a href="#atoll">АТОЛ</a></li>
+						<li><a href="#pioneer">Пионер</a></li>
+						<li><a href="#contact">Контакты</a></li>
+					</ul>
+				</nav>
+				<footer>
+			
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+
+						<section id="one">
+							<div class="image main" data-position="left">
+								<img src="image/header1.jpg" alt="" />
+						      <p class="parallax_x"> 625031.г. Тюмень ул. 
+						      <br>Ватутина, 55
+						      <br>т. +7(3452) 99-49-09
+						      <br>факс +7(3452) 47-35-69
+						      <br>8-922-046-0823, 8-952-675-3081
+						      <br>E-mail: <a href="mailto:pozitron01@yandex.ru"><font size="4" color="#C7EDF1">pozitron01@yandex.ru</font></a></p>
+							 <!-- <p class="parallax_x2">ИНН 7203215149 / КПП 720301001 / ОГРН 1087232015584</p> -->
+							</div>
+						
+			  <div><section class="hero-x2">
+				<p class="parallax_x1"><font size="+1" color="#2f3d72"> Кассовые аппараты он-лайн.
+			        <br>Чекопечатающие машинки. <br>Обслуживание. Замена фискальных накопителей.
+			        <br>Консультации, обучение кассиров, регистрация, перерегистрация в налоговой инспекции.</font>	</p></section>
+				</div>
+
+			<section class="hero-x1">
+			
+<h1 ><font title="center"> Календарь </font></h1>
+	<style>
+#calendar3 {
+  width: 100%;
+  font: monospace;
+  line-height: 1.2em;
+  font-size: 15px;
+  text-align: center;
+}
+#calendar3 thead tr:last-child {
+  font-size: small;
+  color: rgb(85, 85, 85);
+}
+#calendar3 tbody td {
+  color: rgb(44, 86, 122);
+}
+#calendar3 tbody td:nth-child(n+6), #calendar3 .holiday {
+  color: rgb(140, 15, 0);
+}
+#calendar3 tbody td.today {
+  outline: 3px solid red;
+}
+</style>
+
+<table id="calendar3">
+  <thead>
+    <tr><td colspan="4"><select>
+<option value="0">Январь</option>
+<option value="1">Февраль</option>
+<option value="2">Март</option>
+<option value="3">Апрель</option>
+<option value="4">Май</option>
+<option value="5">Июнь</option>
+<option value="6">Июль</option>
+<option value="7">Август</option>
+<option value="8">Сентябрь</option>
+<option value="9">Октябрь</option>
+<option value="10">Ноябрь</option>
+<option value="11">Декабрь</option>
+</select><td colspan="3"><input type="number" value="" min="0" max="9999" size="4">
+    <tr><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс
+  <tbody>
+</table>
+
+<script>
+function Calendar3(id, year, month) {
+var Dlast = new Date(year,month+1,0).getDate(),
+    D = new Date(year,month,Dlast),
+    DNlast = D.getDay(),
+    DNfirst = new Date(D.getFullYear(),D.getMonth(),1).getDay(),
+    calendar = '<tr>',
+    m = document.querySelector('#'+id+' option[value="' + D.getMonth() + '"]'),
+    g = document.querySelector('#'+id+' input');
+if (DNfirst != 0) {
+  for(var  i = 1; i < DNfirst; i++) calendar += '<td>';
+}else{
+  for(var  i = 0; i < 6; i++) calendar += '<td>';
+}
+for(var  i = 1; i <= Dlast; i++) {
+  if (i == new Date().getDate() && D.getFullYear() == new Date().getFullYear() && D.getMonth() == new Date().getMonth()) {
+    calendar += '<td class="today">' + i;
+  }else{
+    if (  // список официальных праздников
+        (i == 1 && D.getMonth() == 0 && ((D.getFullYear() > 1897 && D.getFullYear() < 1930) || D.getFullYear() > 1947)) || // Новый год
+        (i == 2 && D.getMonth() == 0 && D.getFullYear() > 1992) || // Новый год
+        ((i == 3 || i == 4 || i == 5 || i == 6 || i == 8) && D.getMonth() == 0 && D.getFullYear() > 2004) || // Новый год
+        (i == 7 && D.getMonth() == 0 && D.getFullYear() > 1990) || // Рождество Христово
+        (i == 23 && D.getMonth() == 1 && D.getFullYear() > 2001) || // День защитника Отечества
+        (i == 8 && D.getMonth() == 2 && D.getFullYear() > 1965) || // Международный женский день
+        (i == 1 && D.getMonth() == 4 && D.getFullYear() > 1917) || // Праздник Весны и Труда
+        (i == 9 && D.getMonth() == 4 && D.getFullYear() > 1964) || // День Победы
+        (i == 12 && D.getMonth() == 5 && D.getFullYear() > 1990) || // День России (декларации о государственном суверенитете Российской Федерации ознаменовала окончательный Распад СССР)
+        (i == 7 && D.getMonth() == 10 && (D.getFullYear() > 1926 && D.getFullYear() < 2005)) || // Октябрьская революция 1917 года
+        (i == 8 && D.getMonth() == 10 && (D.getFullYear() > 1926 && D.getFullYear() < 1992)) || // Октябрьская революция 1917 года
+        (i == 4 && D.getMonth() == 10 && D.getFullYear() > 2004) // День народного единства, который заменил Октябрьскую революцию 1917 года
+       ) {
+      calendar += '<td class="holiday">' + i;
+    }else{
+      calendar += '<td>' + i;
+    }
+  }
+  if (new Date(D.getFullYear(),D.getMonth(),i).getDay() == 0) {
+    calendar += '<tr>';
+  }
+}
+for(var  i = DNlast; i < 7; i++) calendar += '<td>&nbsp;';
+document.querySelector('#'+id+' tbody').innerHTML = calendar;
+g.value = D.getFullYear();
+m.selected = true;
+if (document.querySelectorAll('#'+id+' tbody tr').length < 6) {
+    document.querySelector('#'+id+' tbody').innerHTML += '<tr><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;';
+}
+document.querySelector('#'+id+' option[value="' + new Date().getMonth() + '"]').style.color = 'rgb(220, 0, 0)'; // в выпадающем списке выделен текущий месяц
+}
+Calendar3("calendar3",new Date().getFullYear(),new Date().getMonth());
+document.querySelector('#calendar3').onchange = function Kalendar3() {
+  Calendar3("calendar3",document.querySelector('#calendar3 input').value,parseFloat(document.querySelector('#calendar3 select').options[document.querySelector('#calendar3 select').selectedIndex].value));
+}
+</script>
+
+				</section>
+
+
+			<p>&nbsp;</p>
+
+				<table width="100%" cellpadding="2" border="1" id="uslugi">
+			    <tbody>
+			    <tr>
+			    <td style="text-align: center;" colspan="2"><strong>Услуги</strong></td>
+			    </tr>
+			    <tr>
+			    <td>Договор с ОФД</td>
+			    <td align="center">2500/5700р.</td>
+			    </tr>
+			    <tr>
+			    <td>Регистрация онлайн в личном кабинете контрагента</td>
+			    <td align="center">1500р.</td>
+			    </tr>
+			    <td>Подключение клиента к ОФД</td>
+			    <td align="center">500р.</td>
+			    </tr>
+			    <td>Снятие с учета ККТ</td>
+			    <td align="center">500р.</td>
+			    </tr>
+			    <td>ФН 36 месяцев енвд усн патент</td>
+			    <td align="center">11500р.</td>
+			    </tr>
+			    <td>ФН 13-15 месяцев общая система</td>
+			    <td align="center">7500р.</td>
+			    </tr>
+			    <td>Договор ЦТО для поддержки ККТ без выезда</td>
+			    <td align="center">1500р.</td>
+			    </tr>
+			    <td>Установка и настройка доп. программ (Крипто ПРО, Рутокен, настройка браузера, установка необходимых драйверов)</td>
+			    <td align="center">1000р.</td>
+			    </tr>
+			  </tbody>
+			  </table>
+			<p>&nbsp;</p>
+
+			  <!-- Stats Gallery Section -->
+			  <div class="gallery">
+			    <div class="thumbnail">
+						<img src="image/evotor-5-0001-380x380.jpg" width="150" height="150" alt="Смарт-терминал ЭВОТОР 5" longdesc="Смарт-терминал ЭВОТОР 5" title="ЭВОТОР 5">
+						<img src="image/evotor-7.3_380x380.jpg" width="150" height="150" alt="ЭВОТОР 7.3 " longdesc="ЭВОТОР 7.3 " title="ЭВОТОР 7.3">
+
+				  <table width="100%" cellpadding="2" border="1">
+				    <tbody>
+			    <tr>
+			    <td style="text-align: center;" colspan="2"><strong>ЭВОТОР</strong></td>
+			    </tr>
+			    <tr>
+			    <td>Эвотор 5 Смарт-терминал ЕНВД</td>
+			    <td align="center">11900р.</td>
+			    </tr>
+			    <tr>
+			    <td>Эвотор 5 Смарт-терминал с ФН 13 месяцев</td>
+			    <td align="center">18100р.</td>
+			    </tr>
+			    <td>Эвотор 5 Смарт-терминал с ФН 36 месяцев</td>
+			    <td align="center">21990р.</td>
+			    </tr>
+			    <td>Эвотор 5 Стандарт ЕНВД</td>
+			    <td align="center">14500р.</td>
+			    </tr>
+			    <td>Эвотор 5 Стандарт с ФН 13 месяцев</td>
+			    <td align="center">20500р.</td>
+			    </tr>
+			    <td>Эвотор 5 Стандарт с ФН 36 месяцев</td>
+			    <td align="center">23500р.</td>
+			    </tr>
+			    <td>Эвотор 5 Стандарт+ ЕНВД</td>
+			    <td align="center">19500р.</td>
+			    </tr>
+			    <td>Эвотор 5 Стандарт+ с ФН 13 месяцев</td>
+			    <td align="center">25500р.</td>
+			    </tr>
+			    <td>Эвотор 5 Стандарт+ с ФН 36 месяцев</td>
+			    <td align="center">28500р.</td>
+			    </tr>
+			    <td>Эвотор 7.3 Алко ЕНВД</td>
+			    <td align="center">31500р.</td>
+			    </tr>
+			    <td>Эвотор 7.3 Алко с ФН 13 месяцев</td>
+			    <td align="center">37500р.</td>
+			    </tr>
+			    </tbody>
+			  </table>
+			    <img src="image/atoll_90f.jpg" width="150" height="150" alt="АТОЛ 90Ф" longdesc="АТОЛ 90Ф" title="АТОЛ 90Ф">
+			    <img src="image/atoll_30f.jpg" width="150" height="150" alt="АТОЛ 30Ф" title="АТОЛ 30Ф">
+			    <table width="100%" cellpadding="2" border="1">
+			    <tbody>
+			    <tr>
+			    <td style="text-align: center;" colspan="2"><strong>АТОЛ</strong></td>
+			    </tr>
+			    <tr>
+			    <td>АТОЛ 90Ф с ФН 13/36 месяцев</td>
+			    <td align="center">18000/23500р.</td>
+			    </tr>
+			    <td>АТОЛ 55Ф с ФН 13/36 месяцев</td>
+			    <td align="center">28800/31800р.</td>
+			    </tr>
+			    <td>АТОЛ 11Ф с ФН 13/36 месяцев</td>
+			    <td align="center">20000/23000р.</td>
+			    </tr>
+			    <td>АТОЛ 30Ф с ФН 13/36 месяцев</td>
+			    <td align="center">16400/19500р.</td>
+			    </tr>
+			    <td>АТОЛ 25Ф с ФН 13/36 месяцев</td>
+			    <td align="center">28800/32000р.</td>
+			    </tr>
+			    <td>ККТ РИТЕЙЛ-01Ф с ФН 13/36 месяцев</td>
+			    <td align="center">26700/30700р.</td>
+			    </tr>
+			    <td>АТОЛ 77Ф с ФН 13/36 месяцев</td>
+			    <td align="center">35000/39900р.</td>
+			    </tr>
+			    <tr>
+			    </tbody>
+			  </table>
+			  			<img src="image/mercury_115f.jpg" width="150" height="150" alt="Меркурий 115Ф" longdesc="Меркурий 115Ф" title="Меркурий 115Ф">
+			  			<img src="image/mercury_185f.jpg" width="150" height="150" alt="Меркурий 185Ф" longdesc="Меркурий 185Ф" title="Меркурий 185Ф">
+			  <table width="100%" cellpadding="2" border="1">
+			    <tbody>
+			    <td style="text-align: center;" colspan="2"><strong>Меркурий</strong></td>
+			    </tr>
+			    <tr>
+			    <td>ККТ Меркурий 115Ф с ФН 13/36 месяцев</td>
+			    <td align="center">12900/15900р.</td>
+			    </tr>
+			    <td>ККТ Меркурий 180Ф с ФН 13/36 месяцев</td>
+			    <td align="center">12900/15900р.</td>
+			    </tr>
+			    <td>ККТ Меркурий 185Ф с ФН 13/36 месяцев</td>
+			    <td align="center">14000/17900р.</td>
+			    </tr>
+			    <td>ККТ Меркурий 119Ф с ФН 13/36 месяцев</td>
+			    <td align="center">20500/25900р.</td>
+			    </tr>
+			    <tr>
+			    </tbody>
+			  </table>
+							<img src="image/SHTRICH-LIGT-01F.jpg" width="150" height="150" alt="">
+							<img src="image/SHTRICH-M-01F.jpg" width="150" height="150" alt="">
+							<img src="image/SHTRICH-ON-Line.jpg" width="150" height="150" alt="">
+			  <table width="100%" cellpadding="2" border="1">
+			    <tbody>
+			    <td style="text-align: center;" colspan="2"><strong>ШТРИХ-М</strong></td>
+			    </tr>
+			    <tr>
+			    <td>ШТРИХ ON Line с ФН 13/36 месяцев</td>
+			    <td align="center">18500/23900р.</td>
+			    </tr>
+			    <td>ШТРИХ-LIGT -01Ф с ФН 13/36 месяцев</td>
+			    <td align="center">25100/29000р.</td>
+			    </tr>
+			    <td>ШТРИХ-М-01Ф с ФН 13/36 месяцев</td>
+			    <td align="center">28000/33000р.</td>
+			    </tr>
+			    <tr>
+			    </tbody>
+			  </table>
+			  <img src="image/pioneer-114f.jpg" width="150" height="150" alt="Пионер-114Ф " longdesc="Пионер-114Ф " title="Пионер-114Ф">
+
+			  <table width="100%" cellpadding="2" border="1">
+			    <tbody>
+			    <td style="text-align: center;" colspan="2"><strong>Пионер</strong></td>
+			    </tr>
+			    <tr>
+			    <td>Пионер-114Ф с ФН 13/36 месяцев</td>
+			    <td align="center">17200/23000р.</td>
+			    </tr>
+			  </tbody>
+			  </table>
+
+			  <p>&nbsp;</p>
+
+					<table width=100% id="mercury">
+					<tr><td width=50%>
+						<h1>ККТ Меркурий 115Ф<br>с ФН 13/36 месяцев 12900/15900р.</h1>
+					<td width=50%>
+						<h1>ККТ Меркурий 185ф<br>с ФН 13/36 месяцев 14000/17900р.</h1></table>
+						<img src="image/mercury_115f.jpg" alt="Меркурий 115Ф" align="left" width="50%" height="auto" title="Меркурий 115Ф" style="background: #6F7D94; display:block; color: #000;"  />
+						<img src="image/mercury_185f.jpg" alt="Меркурий 185Ф" align="right" width="50%" height="auto" title="Меркурий 185ф" style="background: #6F7D94; display:block; color: #000;" />
+
+			      <table width="100%" cellpadding="2" border="1">
+			      <tbody>
+			      <tr>
+			      <td style="text-align: center;" colspan="1"><strong>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</strong></td>
+			      <td style="text-align: center;" colspan="1"><strong>Меркурий 115Ф</strong></td>
+			      <td style="text-align: center;" colspan="1"><strong>Меркурий 185ф</strong></td>
+			      </tr>
+			      <tr>
+			      <td>Количество кассиров</td>
+			      <td align="center">16</td>
+			      <td align="center">16</td>
+			      </tr>
+			      <tr>
+			      <td>Фискальный накопитель</td>
+			      <td align="center">ФН-1</td>
+			      <td align="center">ФН-1</td>
+			      </tr>
+			      <tr>
+			      <td>Тип принтерного механизма</td>
+			      <td align="center">Термический, с заправкой<br> «easy load»</td>
+			      <td align="center">Термический, с заправкой<br> «easy load»</td>
+			      </tr>
+			      <tr>
+			      <td>Чековая лента</td>
+			      <td align="center">термобумага шириной 57,5 мм</td>
+			      <td align="center">термобумага шириной 57,5 мм</td>
+			      </tr>
+			      <tr>
+			      <td>Скорость печати</td>
+			      <td align="center">8 строк/сек</td>
+			      <td align="center">8 строк/сек</td>
+			      </tr>
+			      <tr>
+			      <td>Количество программируемых кодов цен, не менее</td>
+			      <td align="center">10 000</td>
+			      <td align="center">10 000</td>
+			      </tr>
+			      <tr>
+			      <td>Ввод и индикация сумм</td>
+			      <td align="center">9 десятичных разрядов</td>
+			      <td align="center">9 десятичных разрядов</td>
+			      </tr>
+			      <tr>
+			      <td>Считывание штрих-кодов</td>
+			      <td align="center">линейные<br> (EAN-8, ЕАN-13),<br>двумерные (QR, PDF417)</td>
+			      <td align="center">линейные<br> (EAN-8, ЕАN-13),<br>двумерные (QR, PDF417)</td>
+			      </tr>
+			      <tr>
+			      <td>Интерфейс RS-232</td>
+			      <td align="center">2 шт.</td>
+			      <td align="center">2 шт.</td>
+			      </tr>
+			      <tr>
+			      <td>Интерфейс USB (host/device)</td>
+			      <td align="center">1 шт.</td>
+			      <td align="center">1 шт.</td>
+			      </tr>
+			      <tr>
+			      <td>GPRS-модем</td>
+			      <td align="center">1 шт. (по запросу)</td>
+			      <td align="center">1 шт. (по запросу)</td>
+			      </tr>
+			      <tr>
+			      <td>Wi-Fi модем</td>
+			      <td align="center">1 шт. (по запросу)</td>
+			      <td align="center">1 шт. (по запросу)</td>
+			      </tr>
+			      <tr>
+			      <td>SD карта</td>
+			      <td align="center">до 32 гб</td>
+			      <td align="center">до 32 гб</td>
+			      </tr>
+			      <tr>
+			      <td>Встроенный литий-ионный аккумулятор</td>
+			      <td align="center">7,4 В, 2,0 А-ч</td>
+			      <td align="center">7,4 В, 2,0 А-ч</td>
+			      </tr>
+			      <tr>
+			      <td>Графический ЖК-индикатор с подсветкой</td>
+			      <td align="center">128х32</td>
+			      <td align="center">128х32</td>
+			      </tr>
+			      <tr>
+			      <td>Среднее количество чеков за смену при полностью заряженном аккумуляторе, не менее</td>
+			      <td align="center">500</td>
+			      <td align="center">500</td>
+			      </tr>
+			      <tr>
+			      <td>Габариты, масса, не более</td>
+			      <td align="center">230х116х65мм; 1,0 кг</td>
+			      <td align="center">230х116х65мм; 1,0 кг</td>
+			      </tr>
+			      <tr>
+			      <td>Диапазон рабочих температур</td>
+			      <td align="center">-20...+45°С</td>
+			      <td align="center">-20...+45°С</td>
+			      </tr>
+			      <tr>
+			      <td>Заявленный срок службы производителем</td>
+			      <td align="center">10 лет</td>
+			      <td align="center">10 лет</td>
+			      </tr>
+			      </tbody>
+			      </table>
+			      <p>&nbsp;</p>
+
+						<table width=100% id="evotor">
+					<tr><td width=50%>
+						<h1>Смарт-терминал ЭВОТОР 5<br>с ФН 13/36 месяцев 18100/21990р.</h1>
+					<td width=50%>
+						<h1>ЭВОТОР 7.3 Алко с ФН 13 месяцев 37500р.<br>ЭВОТОР 7.3 Алко ЕНВД 31500р. </h1></table>
+						<img src="image/evotor-5-0001-380x380.jpg" alt="Смарт-терминал ЭВОТОР 5" align="left" width="50%" height="auto" title="Смарт-терминал ЭВОТОР 5" style="background: #6F7D94; display:block; color: #000;"  />
+						<img src="image/evotor-7.3_380x380.jpg" alt="ЭВОТОР 7.3" align="left" width="50%" height="auto" title="ЭВОТОР 7.3" style="background: #6F7D94; display:block; color: #000;"  />
+				<table width="100%" cellpadding="2" border="1">
+			      <tbody>
+			      <tr>
+			      <td style="text-align: center;" colspan="1"><strong>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</strong></td>
+			      <td style="text-align: center;" colspan="1"><strong>ЭВОТОР 5</strong></td>
+			      <td style="text-align: center;" colspan="1"><strong>ЭВОТОР 7.3</strong></td>
+			      </tr>
+			      <tr>
+			      <td>Процессор</td>
+			      <td align="center">Mediatek MT8321</td>
+			      <td align="center">Mediatek MT8321</td>
+			      </tr>
+			      <tr>
+			      <td>Оперативная память / жесткая</td>
+			      <td align="center">1GB / 8GB</td>
+			      <td align="center">1GB / 8GB</td>
+			      </tr>
+			      <tr>
+			      <td>Дисплей</td>
+			      <td align="center">5,5 дюйма</td>
+			      <td align="center">7 дюймов</td>
+			      </tr>
+			      <tr>
+			      <td>Навигация</td>
+			      <td align="center">GPS</td>
+			      <td align="center">Нет</td>
+			      </tr>
+			      <tr>
+			      <td>Камера</td>
+			      <td align="center">5 Мпикс</td>
+			      <td align="center">Нет</td>
+			      </tr>
+			      <tr>
+			      <td>Источник питания</td>
+			      <td align="center">5V, 2A</td>
+			      <td align="center">Coaxial, 24V, 1.25A</td>
+			      </tr>
+			      <tr>
+			      <td>Аккумулятор</td>
+			      <td align="center">8-12 часов автономной работы</td>
+			      <td align="center">Нет (только для безопасного отключения)</td>
+			      </tr>
+			      <tr>
+			      <td>USB host</td>
+			      <td align="center">USB-A, USB2.0</td>
+			      <td align="center">6xUSB-A, USB2.0</td>
+			      </tr>
+			      <tr>
+			      <td>Ethernet</td>
+			      <td align="center">Есть</td>
+			      <td align="center">Нет</td>
+			      </tr>
+			      <tr>
+			      <td>Доп. интерфейсы</td>
+			      <td align="center">Денежный ящик, 2 COM порта</td>
+			      <td align="center">Денежный ящик</td>
+			      </tr>
+			      <tr>
+			      <td>Скорость печати</td>
+			      <td align="center">До 60 мм/c</td>
+			      <td align="center">До 70 мм/с</td>
+			      </tr>
+			      <tr>
+			      <td>Ресурс головки</td>
+			      <td align="center">100 км</td>
+			      <td align="center">50 км</td>
+			      </tr>
+			      <tr>
+			      <td>Резак</td>
+			      <td align="center">2 стальных гребенки</td>
+			      <td align="center">1 стальная гребенка</td>
+			      </tr>
+			      </tbody>
+			      </table>
+			      <p>&nbsp;</p>
+
+						<table width=100% id="atoll">
+					<tr><td width=50%>
+						<h1>АТОЛ 90Ф с ФН 13/36 месяцев 18000/23500р.</h1>
+					<td width=50%>
+						<h1>АТОЛ 30Ф с ФН 13/36 месяцев 16400/19500р.</h1></table>
+						<img src="image/atoll_90f.jpg" alt="АТОЛ 90Ф" align="left" width="50%" height="auto" title="АТОЛ 90Ф" style="background: #6F7D94; display:block; color: #000;"  />
+						<img src="image/atoll_30f.jpg" alt="АТОЛ 30Ф" align="left" width="50%" height="auto" title="АТОЛ 30Ф" style="background: #6F7D94; display:block; color: #000;"  />
+			<table width="100%" cellpadding="2" border="1">
+			      <tbody>
+			      <tr>
+			      <td style="text-align: center;" colspan="1"><strong>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</strong></td>
+			      <td style="text-align: center;" colspan="1"><strong>АТОЛ 90Ф</strong></td>
+			      <td style="text-align: center;" colspan="1"><strong>АТОЛ 30Ф</strong></td>
+			      </tr>
+			      <tr>
+			      <td>Способ печати</td>
+			      <td align="center">Термохимический</td>
+			      <td align="center">Термопечать</td>
+			      </tr>
+			      <tr>
+			      <td>Качество печати, dpi</td>
+			      <td align="center">203</td>
+			      <td align="center">203</td>
+			      </tr>
+			      <tr>
+			      <td>Скорость печати, мм/с</td>
+			      <td align="center">до 75</td>
+			      <td align="center">до 50</td>
+			      </tr>
+			      <tr>
+			      <td>Ресурс печатающей головки, км чековой ленты</td>
+			      <td align="center">100 км</td>
+			      <td align="center">50 км</td>
+			      </tr>
+			      <tr>
+			      <td>Автоотрез</td>
+			      <td align="center">Нет (гребенка)</td>
+			      <td align="center">Нет (гребенка)</td>
+			      </tr>
+			      <tr>
+			      <td>Количество символов в строке</td>
+			      <td align="center">32 - 42 (при бумаге 58 мм) <br> 24 - 34 (при бумаге 44 мм)</td>
+			      <td align="center">24 - 42 (при бумаге 58 мм) <br> 24 - 34 (при бумаге 44 мм)</td>
+			      </tr>
+			      <tr>
+			      <td>Питание</td>
+			      <td align="center">7,4В (БП)</td>
+			      <td align="center">9В АС 220 В, 50 Hz</td>
+			      </tr>
+			      <tr>
+			      <td>Интерфейсы</td>
+			      <td align="center">WI-FI, 2G</td>
+			      <td align="center">USB, Wi-fi, 2G, 3G - опционально</td>
+			      </tr>
+			      <tr>
+			      <td>Размеры</td>
+			      <td align="center">114 х 81 х 235 мм</td>
+			      <td align="center">87 х 160 х 79 мм</td>
+			      </tr>
+			      <tr>
+			      <td>Вес, кг</td>
+			      <td align="center">0,9 кг</td>
+			      <td align="center">0,36 кг</td>
+			      </tr>
+			      <tr>
+			      </tbody>
+			      </table>
+			      <p>&nbsp;</p>
+
+				 <h1 id="pioneer">Пионер-114Ф с ФН 13/36 месяцев 17200/23000р.</h1>
+			    <img src="image/pioneer-114f.jpg" alt="Пионер-114Ф" align="left" width="50%" height="auto" title="Пионер-114Ф" style="background: #6F7D94; display:block; color: #000;"  />
+
+			    <table width="50%" cellpadding="2" border="1">
+			      <tbody>
+			      <tr>
+			      <td style="text-align: center;" colspan="2"><strong>Пионер-114Ф ОСНОВНЫЕ ХАРАКТЕРИСТИКИ</strong></td>
+			      </tr>
+			      <tr>
+			      <td>Скорость печати мм/с</td>
+			      <td align="center">35</td>
+			      </tr>
+			      <tr>
+			      <td>Ширина чека, мм</td>
+			      <td align="center">58 мм</td>
+			      </tr>
+			      <tr>
+			      <td>Интерфейс подключения</td>
+			      <td align="center">Ethernet, USB, Wi-fi</td>
+			      </tr>
+			      <tr>
+			      <td>Передача данных в ОФД</td>
+			      <td align="center"> Ethernet, Wi-fi </td>
+			      </tr>
+			      <tr>
+			      <td>Налогообложение </td>
+			      <td align="center">ЕНВД, ОСНО, ПСН, УСН</td>
+			      <tr>
+			      <td>АКБ</td>
+			      <td align="center">Есть</td>
+					</tbody>
+			      </table>
+
+			    <p>&nbsp;</p>
+
+			    </div>
+			  </div>
+
+				<section class="hero-x1"><h4 id="contact">625031.г. Тюмень ул. Ватутина, 55
+					<br>т. +7(3452) 99-49-09
+					<br>факс +7(3452) 47-35-69
+					<br>8-922-046-0823, 8-952-675-3081
+						<br>E-mail: <a href="mailto:pozitron01@yandex.ru"><span style="color:navy">pozitron01@yandex.ru</span></a><h4>
+					<a class="dg-widget-link" href="http://2gis.ru/tyumen/firm/1830115629690603/center/65.58747768402101,57.18826242510559/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Тюмени</a><div class="dg-widget-link"><a href="http://2gis.ru/tyumen/center/65.587965,57.187168/zoom/16/routeTab/rsType/bus/to/65.587965,57.187168╎Позитрон, ООО, торгово-сервисная компания?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Позитрон, ООО, торгово-сервисная компания</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":700,"height":450,"borderColor":"#a3a3a3","pos":{"lat":57.18826242510559,"lon":65.58747768402101,"zoom":16},"opt":{"city":"tyumen"},"org":[{"id":"1830115629690603"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+				</section>
+
+			  <div><section class="hero-x">
+				<p class="parallax_x3">&copy;2020 - ИНН 7203215149 / КПП 720301001 <br> ОГРН 1087232015584</p></section>
+				</div>
+
+					</div>
+				</div>
+			</div>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
